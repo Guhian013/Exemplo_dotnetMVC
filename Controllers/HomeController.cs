@@ -23,6 +23,10 @@ public class HomeController : Controller
         return View();
     }
 
+    public string PrimeiraAction() {
+        return "Minha veri gud action";
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
