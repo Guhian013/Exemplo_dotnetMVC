@@ -23,8 +23,8 @@ public class HomeController : Controller
         return View();
     }
 
-    public string PrimeiraAction() {
-        return "Minha veri gud action";
+    public IActionResult PrimeiraAction() {
+        return View();
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
